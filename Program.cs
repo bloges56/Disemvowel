@@ -12,7 +12,7 @@ namespace Disemvowel
 
         public static string Disemvowel(string str)
         {
-            char[] vowels = new char[] { 'a', 'e', 'i', 'o', 'u', 'y', 'A', 'E', 'I', 'O', 'U', 'Y' };
+            char[] vowels = new char[] { 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U' };
             for(int i = 0; i < str.Length; i++)
             {
                 if (vowels.Contains(str[i]))
